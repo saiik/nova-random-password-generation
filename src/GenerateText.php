@@ -4,14 +4,14 @@ namespace Naif\GeneratePassword;
 
 use Laravel\Nova\Fields\Text;
 
-class GeneratePassword extends Text
+class GenerateText extends Text
 {
     /**
      * The field's component.
      *
      * @var string
      */
-    public $component = 'generate-password';
+    public $component = 'generate-text';
 
     public function length($length)
     {

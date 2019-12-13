@@ -1,5 +1,5 @@
 Nova.booting((Vue, router) => {
-    Vue.component('index-generate-password', require('./components/IndexField'));
-    Vue.component('detail-generate-password', require('./components/DetailField'));
-    Vue.component('form-generate-password', require('./components/FormField'));
+    Vue.component('index-generate-text', require('./components/IndexField'));
+    Vue.component('detail-generate-text', require('./components/DetailField'));
+    Vue.component('form-generate-text', require('./components/FormField'));
 })

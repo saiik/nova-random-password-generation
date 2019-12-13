@@ -16,8 +16,8 @@ class FieldServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script('generate-password', __DIR__.'/../dist/js/field.js');
-            Nova::style('generate-password', __DIR__.'/../dist/css/field.css');
+            Nova::script('generate-text', __DIR__.'/../dist/js/field.js');
+            Nova::style('generate-text', __DIR__.'/../dist/css/field.css');
         });
     }
 
