@@ -2,9 +2,9 @@
 
 namespace Naif\GeneratePassword;
 
-use Laravel\Nova\Fields\Password;
+use Laravel\Nova\Fields\Text;
 
-class GeneratePassword extends Password
+class GeneratePassword extends Text
 {
     /**
      * The field's component.
