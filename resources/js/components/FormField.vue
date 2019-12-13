@@ -8,13 +8,7 @@
                        :placeholder="field.name"
                        autocomplete="off"
                        v-model="value"/>
-                <input type="button" class="button"  value="***" v-on:click="generate();">
-                <div class="tooltip">
-                    <button type="button" class="copyButtton" v-on:click="copyPassword()">
-                        <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-                        Copy
-                    </button>
-                </div>
+                <input type="button" class="button"  value="Generate" v-on:click="generate();">
             </div>
             <p v-if="hasError" class="my-2 text-danger">
                 {{ firstError }}
